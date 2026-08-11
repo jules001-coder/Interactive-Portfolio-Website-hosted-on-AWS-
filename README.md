@@ -1,17 +1,12 @@
-# Interactive-Portfolio-Website-hosted-on-AWS-
-A static portfolio website for a graphic designer, built with HTML, CSS, and JavaScript and deployed on AWS S3 as part of a collaborative cloud computing project
-# Graphic Designer Portfolio Website
-
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![AWS S3](https://img.shields.io/badge/AWS_S3-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![Status](https://img.shields.io/badge/status-live-brightgreen)
+![Status](https://img.shields.io/badge/status-inactive-lightgrey)
 
 A single-page portfolio website for a freelance graphic designer, built with HTML, CSS, and JavaScript and deployed to the cloud using **Amazon S3 Static Website Hosting**. Developed collaboratively as part of our team's first AWS cloud project.
 
-Open and view the project using the `.zip` file provided.
-
+> **Note:** The live site has been temporarily taken down as the free-tier AWS hosting period has ended. All project files are available in this repository.
 
 ---
 
@@ -54,12 +49,12 @@ To run the project locally:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/jules001-coder/Interactive-Portfolio-Website-hosted-on-AWS-.git
    ```
 
 2. Navigate into the project folder:
    ```
-   cd your-repo-name
+   cd Interactive-Portfolio-Website-hosted-on-AWS-
    ```
 
 3. Open `index.html` in your browser — no build tools or installs needed.
@@ -69,21 +64,21 @@ To run the project locally:
 ## Project Structure
 
 ```
-portfolio-site/
+Interactive-Portfolio-Website-hosted-on-AWS-/
 │
 ├── assets/
-│   ├── css/
-│   │   └── styles.css          # All styling for the website
-│   ├── images/                 # All photography and visual assets
-│   │   ├── portrait/
-│   │   │   └── photo.png       # Designer portrait (hero section)
-│   │   └── (11 project images)
-│   ├── js/
-│   │   └── script.js           # All JavaScript and interactivity
-│   └── resume/
-│       └── RN File Structure.pdf
+│   └── css/                        # Project assets folder
+│       ├── styles.css              # All styling for the website
+│       ├── script.js               # All JavaScript and interactivity
+│       ├── images/                 # All photography and visual assets
+│       │   ├── portrait/
+│       │   │   └── photo.png       # Designer portrait (hero section)
+│       │   └── (11 project images)
+│       └── resume/
+│           └── RN File Structure.pdf
 │
-└── index.html                  # The entire website (single-page)
+├── index.html                      # The entire website (single-page)
+└── README.md                       # Project documentation
 ```
 
 ---
@@ -110,7 +105,7 @@ Contains all styling for the website, including:
 - Scroll reveal animations and skill bar transitions
 - Mobile-first responsive design
 
-### `assets/js/script.js`
+### `assets/css/script.js`
 
 Contains all JavaScript for the site's interactive features:
 
@@ -124,11 +119,11 @@ Contains all JavaScript for the site's interactive features:
 - **Skill bars** — progress bars animate to their value on scroll
 - **Contact form** — handles submission with a toast notification
 
-### `assets/images/`
+### `assets/css/images/`
 
 Stores all visual assets used across the site including editorial photography for the portfolio cards, About section, and case study overlays.
 
-### `assets/resume/`
+### `assets/css/resume/`
 
 Contains a PDF reference document used during the planning phases of the project.
 
@@ -167,7 +162,6 @@ No installation or build process is required. To view the site locally:
 ```
 Open index.html in any modern web browser
 ```
-
 
 ---
 
@@ -208,7 +202,7 @@ Since this is a portfolio with no sensitive data collection, viewers can still s
 - [ ] Add **Amazon CloudFront** to enable HTTPS and improve global load speed
 - [ ] Connect a **custom domain** to replace the S3-generated URL
 - [ ] Set up **continuous deployment** from GitHub to S3 on every push
-- [ ] Improve responsive layout for very small screen sizes
+- [ ] Reorganise the `assets/` folder structure (css, js, images, resume as separate subfolders)
 - [ ] Add SSL/TLS certificate to remove browser security warnings
 
 ---
@@ -230,12 +224,11 @@ This project gave our team practical experience with:
 
 #### Team Roles
 
-- **PM** — Project planning and coordination
-- **Designer** — Visual design and prototyping   
-- **Developer** — Frontend build (HTML, CSS, JavaScript)
-- **AWS Lead** — Cloud deployment and S3 configuration
-- **Writer** — Content and documentation
-
+- **PM** — Juliana Oduro
+- **Designer** — Juliana Oduro/Joseph Egyir
+- **Developer** — Philip Ayelikar (assisted by Juliana Oduro)
+- **AWS Lead** — Philip Ayelikar/Joseph Egyir/Purity Chepkmoi
+- **Writer** — Blessing/Juliana
 
 ---
 
@@ -245,4 +238,3 @@ This project gave our team practical experience with:
 - [Google Fonts](https://fonts.google.com/) — Bebas Neue and Montserrat typefaces
 - [AWS Documentation](https://docs.aws.amazon.com/s3/) — S3 static hosting setup guide
 - All team members who contributed across design, development, writing, and cloud
-
